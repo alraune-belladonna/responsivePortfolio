@@ -8,7 +8,6 @@
   align-content: center;
   justify-items: center;
   align-items: center;
-  margin-bottom: 0%;
 }
 
 .headerFont {
@@ -23,4 +22,25 @@
   font-style: italic;
   color: white;
   padding: 2%;
+}
+
+.textFont {
+  font-family: 'PT Mono', monospace;
+  color: white;
+}
+
+.portrait {
+  width: 80%;
+  height: auto;
+  border: 15px;
+  border-style: double;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  align-content: left;
+  justify-items: left;
+  align-items: left;
+  flex-flow: column wrap;
 }
