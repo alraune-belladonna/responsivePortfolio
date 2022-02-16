@@ -1,5 +1,14 @@
-.headerMain {
+.formatCenter {
   display: flex;
   justify-content: center;
   align-content: center;
+  justify-items: center;
+  align-items: center;
+  background-color: #172A3A;
+}
+
+.headerFont {
+  font-family: 'PT Mono', monospace;
+  font-weight: bold;
+  color: white;
 }
