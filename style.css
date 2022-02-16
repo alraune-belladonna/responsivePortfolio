@@ -1,14 +1,26 @@
+.bgColor {
+  background: linear-gradient(90deg, #172A3A 0%, #508991 80%, #75DDDD 100%);
+}
+
 .formatCenter {
   display: flex;
   justify-content: center;
   align-content: center;
   justify-items: center;
   align-items: center;
-  background-color: #172A3A;
+  margin-bottom: 0%;
 }
 
 .headerFont {
-  font-family: 'PT Mono', monospace;
-  font-weight: bold;
+  font-family: 'Xanh Mono', monospace;
+  font-weight: bolder;
   color: white;
+  padding: 3%;
+}
+
+.captionFont {
+  font-family: 'PT Mono', monospace;
+  font-style: italic;
+  color: white;
+  padding: 2%;
 }
