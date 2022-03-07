@@ -43,5 +43,16 @@
   align-content: left;
   justify-items: left;
   align-items: left;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
+  margin: 0%;
+  border: 100%;
+}
+
+.portfolioSection {
+  width: 40%;
+  margin: 2%;
+}
+
+.imgTraits {
+  width: 100%;
 }
